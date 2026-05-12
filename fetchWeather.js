@@ -15,7 +15,7 @@ const LOG_FILE = path.join(DATA_DIR, 'weather_log.csv')
 export async function fetchWeather() {
     const apiKey = process.env.WEATHER_API_KEY
     const city = process.env.CITY
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=Ankara&appid=ce45e9e6c3459e3017c31acabd3d4dc9&units=metric`
 
     try {
         const response = await fetch(url)
@@ -24,7 +24,7 @@ export async function fetchWeather() {
         }
 
         const data = await response.json()
-        const nowUTC = new Date().toISOString()
+        const nowUTC = new Date().toISOString() // yyyy-mm-dd 2026-05-12
         data._last_updated_utc = nowUTC
         fs.writeFileSync(WEATHER_FILE, JSON.stringify(data, null, 2))
 
