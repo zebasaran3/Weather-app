@@ -14,24 +14,24 @@
   "base": "stations",
   "main": {
     "temp": 27.89,
-    "feels_like": 27.06,
-    "temp_min": 27.36,
-    "temp_max": 27.89,
+    "feels_like": 27.16,
+    "temp_min": 27.89,
+    "temp_max": 29.02,
     "pressure": 1013,
-    "humidity": 31,
+    "humidity": 33,
     "sea_level": 1013,
-    "grnd_level": 896
+    "grnd_level": 895
   },
   "visibility": 10000,
   "wind": {
-    "speed": 2.24,
-    "deg": 290,
-    "gust": 2.24
+    "speed": 0.89,
+    "deg": 250,
+    "gust": 2.68
   },
   "clouds": {
-    "all": 4
+    "all": 3
   },
-  "dt": 1780832903,
+  "dt": 1780840800,
   "sys": {
     "type": 2,
     "id": 267643,
@@ -43,5 +43,5 @@
   "id": 323786,
   "name": "Ankara",
   "cod": 200,
-  "_last_updated_utc": "2026-06-07T11:51:41.596Z"
+  "_last_updated_utc": "2026-06-07T14:03:46.138Z"
 }
