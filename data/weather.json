@@ -5,43 +5,43 @@
   },
   "weather": [
     {
-      "id": 801,
+      "id": 803,
       "main": "Clouds",
-      "description": "few clouds",
-      "icon": "02n"
+      "description": "broken clouds",
+      "icon": "04n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 20.11,
-    "feels_like": 19.33,
-    "temp_min": 14.51,
-    "temp_max": 20.11,
-    "pressure": 1014,
-    "humidity": 44,
-    "sea_level": 1014,
-    "grnd_level": 901
+    "temp": 14.58,
+    "feels_like": 13.71,
+    "temp_min": 14.58,
+    "temp_max": 14.58,
+    "pressure": 1015,
+    "humidity": 62,
+    "sea_level": 1015,
+    "grnd_level": 900
   },
-  "visibility": 10000,
+  "visibility": 8729,
   "wind": {
-    "speed": 1.55,
-    "deg": 68,
-    "gust": 3.16
+    "speed": 0.67,
+    "deg": 39,
+    "gust": 1.96
   },
   "clouds": {
-    "all": 15
+    "all": 59
   },
-  "dt": 1791743973,
+  "dt": 1791761456,
   "sys": {
     "type": 2,
-    "id": 267643,
+    "id": 2108472,
     "country": "TR",
-    "sunrise": 1791690857,
-    "sunset": 1791731771
+    "sunrise": 1791777318,
+    "sunset": 1791818079
   },
   "timezone": 10800,
   "id": 323786,
   "name": "Ankara",
   "cod": 200,
-  "_last_updated_utc": "2026-10-11T18:42:31.792Z"
+  "_last_updated_utc": "2026-10-11T23:30:56.488Z"
 }
