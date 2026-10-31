@@ -8,30 +8,30 @@
       "id": 804,
       "main": "Clouds",
       "description": "overcast clouds",
-      "icon": "04n"
+      "icon": "04d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 10.95,
-    "feels_like": 10.42,
-    "temp_min": 8.47,
+    "temp": 11.06,
+    "feels_like": 10.55,
+    "temp_min": 7.51,
     "temp_max": 11.23,
     "pressure": 1019,
     "humidity": 89,
     "sea_level": 1019,
     "grnd_level": 904
   },
-  "visibility": 803,
+  "visibility": 102,
   "wind": {
-    "speed": 0.3,
-    "deg": 15,
-    "gust": 0.91
+    "speed": 0.7,
+    "deg": 41,
+    "gust": 2.35
   },
   "clouds": {
-    "all": 99
+    "all": 100
   },
-  "dt": 1793403072,
+  "dt": 1793422256,
   "sys": {
     "type": 2,
     "id": 267643,
@@ -43,5 +43,5 @@
   "id": 323786,
   "name": "Ankara",
   "cod": 200,
-  "_last_updated_utc": "2026-10-30T23:31:20.798Z"
+  "_last_updated_utc": "2026-10-31T04:50:56.535Z"
 }
